@@ -9,6 +9,14 @@ urlpatterns = patterns('',
                            'base.views.home',
                            name='home'),
 
+                       url(r'^pomem-sablon-demo$',
+                           'base.views.fitnesspointdemo',
+                           name='fitnesspointdemo'),
+
+                       url(r'^pomem-sablon-index$',
+                           'base.views.fitnesspointindex',
+                           name='fitnesspointindex'),
+
                        )
 
 if settings.DEBUG:
