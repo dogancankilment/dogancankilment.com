@@ -9,3 +9,11 @@ from django.shortcuts import render
 
 def home(request):
     return render_to_response("home/index.html")
+
+
+def fitnesspointdemo(request):
+    return render_to_response("workspace/fitnesspoint/demo.html")
+
+
+def fitnesspointindex(request):
+    return render_to_response("workspace/fitnesspoint/index.html")
